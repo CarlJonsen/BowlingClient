@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="UseAPI.Program">
+    <Position X="1" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BowlingClient.ModelsDto.AccountDto" Collapsed="true">
+    <Position X="6.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAQAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Models\AccountDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BowlingClient.Models.BookingSlotDto" Collapsed="true">
+    <Position X="6.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Models\BookingSlotDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BowlingClient.Models.ErrorResponeDto" Collapsed="true">
+    <Position X="8.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Models\ErrorResponseDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BowlingClient.Models.MatchDto" Collapsed="true">
+    <Position X="6.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAASAAAAAAAIAAIAAgAAAAIAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Models\MatchDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BowlingClient.Manager.AccountManager">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAQAAAAAAQCAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Manager\AccountManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BowlingClient.Manager.ApiClient">
+    <Position X="13.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAABAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Manager\ApiClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BowlingClient.Manager.BookingManager">
+    <Position X="4" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAgAAAAEAIAAAAAA=</HashCode>
+      <FileName>Manager\BookingManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BowlingClient.Manager.MatchManager">
+    <Position X="4" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAQAAEAAAAAAAAAAIAgAAAA=</HashCode>
+      <FileName>Manager\MatchManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BowlingClient.Factory.FactoryModels.BowlingMatch" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAEAAAAAAAEAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\FactoryModels\BowlingMatch.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BowlingClient.Factory.FactoryModels.DartMatch" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAEAAAAAAAEAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\FactoryModels\DartMatch.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BowlingClient.Factory.FactoryModels.PingPongMatch" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAEAAAAAAAEAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\FactoryModels\PingPongMatch.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BowlingClient.Factory.MatchFactory">
+    <Position X="6.75" Y="7.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="BowlingClient.Factory.MatchFactory.MatchType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Factory\MatchFactory.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\MatchFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="BowlingClient.Factory.FactoryModels.IMatch" Collapsed="true">
+    <Position X="9" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAEAAAAAAAAEAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\FactoryModels\IMatch.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
